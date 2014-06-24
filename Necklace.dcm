@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CK_KMR2
+D Push Button
+K Switch
+$ENDCMP
+#
+$CMP MSP430G2452IPW14
+D MSP430G2232, 14pin TSSOP, 2KB Flash Memory, 256B RAM
+K MSP430 MIXED SIGNAL MICROCONTROLLER
+F http://focus.ti.com/lit/ds/symlink/msp430g2102.pdf
+$ENDCMP
+#
+#End Doc Library
