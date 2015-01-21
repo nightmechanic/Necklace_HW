@@ -1,6 +1,6 @@
-update=6/16/2014 12:31:18 AM
+update=1/22/2015 1:01:45 AM
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -43,19 +43,9 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
 LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -89,3 +79,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=msp430
 LibName32=Necklace
+[general]
+version=1

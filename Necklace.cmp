@@ -1,0 +1,206 @@
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = 1/22/2015 12:26:41 AM
+
+BeginCmp
+TimeStamp = /54C01CDB;
+Reference = BATT1;
+ValeurCmp = CR2032_SMT_HOLDER_2pin;
+IdModule  = Nightmechanic_PCB:SMTU_2032;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E07D1;
+Reference = C1;
+ValeurCmp = 0.1nF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E07BD;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E2081;
+Reference = C3;
+ValeurCmp = 10uF Tant.;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0B99A;
+Reference = C4;
+ValeurCmp = 10uF Tant.;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0B72C;
+Reference = C5;
+ValeurCmp = 2.2nF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0B831;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E13B6;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = Nightmechanic_PCB:SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE45;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = Nightmechanic_PCB:SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE50;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = Nightmechanic_PCB:SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE5B;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = Nightmechanic_PCB:SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE66;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = Nightmechanic_PCB:SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE71;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = Nightmechanic_PCB:SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E1778;
+Reference = P1;
+ValeurCmp = PICOBLADE_5_HDR_RA;
+IdModule  = Connectors_Molex:Connector_Molex_PicoBlade_53261-0571;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E18A5;
+Reference = P2;
+ValeurCmp = PICOBLADE_5_HDR_RA;
+IdModule  = Connectors_Molex:Connector_Molex_PicoBlade_53261-0571;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E066D;
+Reference = R1;
+ValeurCmp = ZEROHM;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E0ABF;
+Reference = R2;
+ValeurCmp = 3.9k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E0ADD;
+Reference = R3;
+ValeurCmp = 3.9k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E0CE4;
+Reference = R4;
+ValeurCmp = 47k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E1396;
+Reference = R5;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BDFF;
+Reference = R6;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE0A;
+Reference = R7;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE15;
+Reference = R8;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE20;
+Reference = R9;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0BE2B;
+Reference = R10;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0AA11;
+Reference = R11;
+ValeurCmp = ZEROHM;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9C6EB;
+Reference = SW1;
+ValeurCmp = CK_KMR2;
+IdModule  = Nightmechanic_PCB:CK_KMR2;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E0771;
+Reference = U1;
+ValeurCmp = ADXL345;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0B0DD;
+Reference = U2;
+ValeurCmp = MSP430G2452IPW14;
+IdModule  = Nightmechanic_PCB:TI_PW14_TSSOP14;
+EndCmp
+
+EndListe
