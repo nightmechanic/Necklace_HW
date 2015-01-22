@@ -118,7 +118,7 @@ U 1 1 539E0771
 P 2600 5150
 F 0 "U1" H 2000 5850 60  0000 C CNN
 F 1 "ADXL345" H 3100 5850 60  0000 C CNN
-F 2 "" H 2600 4750 40  0001 C CIN
+F 2 "Nightmechanic_PCB:AD_LGA14" H 2600 4750 40  0001 C CIN
 F 3 "http://www.analog.com/static/imported-files/data_sheets/ADXL345.pdf" H 2600 5950 60  0001 C CNN
 	1    2600 5150
 	1    0    0    -1  

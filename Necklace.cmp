@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = 1/22/2015 12:26:41 AM
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = 1/22/2015 11:45:29 PM
 
 BeginCmp
 TimeStamp = /54C01CDB;
@@ -193,7 +193,7 @@ BeginCmp
 TimeStamp = /539E0771;
 Reference = U1;
 ValeurCmp = ADXL345;
-IdModule  = ;
+IdModule  = Nightmechanic_PCB:AD_LGA14;
 EndCmp
 
 BeginCmp
