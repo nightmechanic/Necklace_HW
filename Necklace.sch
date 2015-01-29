@@ -244,12 +244,12 @@ $EndComp
 $Comp
 L GND #PWR011
 U 1 1 539E0D8D
-P 1500 7300
-F 0 "#PWR011" H 1500 7300 30  0001 C CNN
-F 1 "GND" H 1500 7230 30  0001 C CNN
-F 2 "" H 1500 7300 60  0000 C CNN
-F 3 "" H 1500 7300 60  0000 C CNN
-	1    1500 7300
+P 1350 7400
+F 0 "#PWR011" H 1350 7400 30  0001 C CNN
+F 1 "GND" H 1350 7330 30  0001 C CNN
+F 2 "" H 1350 7400 60  0000 C CNN
+F 3 "" H 1350 7400 60  0000 C CNN
+	1    1350 7400
 	1    0    0    -1  
 $EndComp
 Text Label 1600 6800 0    60   ~ 0
@@ -348,8 +348,8 @@ $Comp
 L PICOBLADE_5_HDR_RA P1
 U 1 1 539E1778
 P 6750 2600
-F 0 "P1" H 6750 2850 60  0000 C CNN
-F 1 "PICOBLADE_5_HDR_RA" H 6750 2750 60  0000 C CNN
+F 0 "P1" H 6950 2900 60  0000 C CNN
+F 1 "PICOBLADE_5_HDR_RA" H 7300 2700 60  0000 C CNN
 F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53261-0571" H 6750 2000 40  0000 C CIN
 F 3 "http://www.molex.com/molex/products/datasheet.jsp?part=active/0532610571_PCB_HEADERS.xml" H 6750 2850 60  0001 C CNN
 	1    6750 2600
@@ -360,31 +360,31 @@ SBWTDIO
 $Comp
 L PICOBLADE_5_HDR_RA P2
 U 1 1 539E18A5
-P 6750 1050
-F 0 "P2" H 6750 1300 60  0000 C CNN
-F 1 "PICOBLADE_5_HDR_RA" H 6750 1200 60  0000 C CNN
-F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53261-0571" H 6750 450 40  0000 C CIN
-F 3 "http://www.molex.com/molex/products/datasheet.jsp?part=active/0532610571_PCB_HEADERS.xml" H 6750 1300 60  0001 C CNN
-	1    6750 1050
+P 9000 1300
+F 0 "P2" H 9000 1550 60  0000 C CNN
+F 1 "PICOBLADE_5_HDR_RA" H 9000 1450 60  0000 C CNN
+F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53261-0571" H 9000 700 40  0000 C CIN
+F 3 "http://www.molex.com/molex/products/datasheet.jsp?part=active/0532610571_PCB_HEADERS.xml" H 9000 1550 60  0001 C CNN
+	1    9000 1300
 	1    0    0    -1  
 $EndComp
-Text Label 5550 1050 0    60   ~ 0
+Text Label 7800 1300 0    60   ~ 0
 I2C_SCL
-Text Label 5550 1150 0    60   ~ 0
+Text Label 7800 1400 0    60   ~ 0
 I2C_SDA
-Text Label 5550 1450 0    60   ~ 0
+Text Label 7800 1700 0    60   ~ 0
 ACC_INT1
-Text Label 5550 1350 0    60   ~ 0
+Text Label 7800 1600 0    60   ~ 0
 ACC_INT2
 $Comp
 L GND #PWR018
 U 1 1 539E1A93
-P 5200 1350
-F 0 "#PWR018" H 5200 1350 30  0001 C CNN
-F 1 "GND" H 5200 1280 30  0001 C CNN
-F 2 "" H 5200 1350 60  0000 C CNN
-F 3 "" H 5200 1350 60  0000 C CNN
-	1    5200 1350
+P 7450 1600
+F 0 "#PWR018" H 7450 1600 30  0001 C CNN
+F 1 "GND" H 7450 1530 30  0001 C CNN
+F 2 "" H 7450 1600 60  0000 C CNN
+F 3 "" H 7450 1600 60  0000 C CNN
+	1    7450 1600
 	1    0    0    -1  
 $EndComp
 Text Label 4100 5100 0    60   ~ 0
@@ -580,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 4900 1450 4700
 Wire Wire Line
-	1500 7250 1500 7300
+	1350 7250 1350 7400
 Wire Wire Line
 	3600 5100 5150 5100
 Wire Wire Line
@@ -638,17 +638,17 @@ Wire Wire Line
 Wire Wire Line
 	6400 3000 5400 3000
 Wire Wire Line
-	6400 1050 5400 1050
+	8650 1300 7650 1300
 Wire Wire Line
-	6400 1150 5400 1150
+	8650 1400 7650 1400
 Wire Wire Line
-	5200 1250 6400 1250
+	7450 1500 8650 1500
 Wire Wire Line
-	6400 1350 5400 1350
+	8650 1600 7650 1600
 Wire Wire Line
-	6400 1450 5400 1450
+	8650 1700 7650 1700
 Wire Wire Line
-	5200 1250 5200 1350
+	7450 1500 7450 1600
 Wire Wire Line
 	1250 2050 1250 2150
 Wire Wire Line
@@ -797,12 +797,12 @@ $EndComp
 $Comp
 L CK_KMR2 SW1
 U 1 1 53A9C6EB
-P 1200 6950
-F 0 "SW1" H 1200 7300 50  0000 C CNN
-F 1 "CK_KMR2" H 1175 6600 50  0000 C CNN
-F 2 "Nightmechanic_PCB:CK_KMR2" H 1175 6500 40  0000 C CIN
-F 3 "http://www.ck-components.com/kmr-2/tactile,10572,en.html" H 1500 7500 60  0001 C CNN
-	1    1200 6950
+P 1050 6950
+F 0 "SW1" H 1050 7300 50  0000 C CNN
+F 1 "CK_KMR2" H 1025 6600 50  0000 C CNN
+F 2 "Nightmechanic_PCB:CK_KMR2" H 1025 6500 40  0000 C CIN
+F 3 "http://www.ck-components.com/kmr-2/tactile,10572,en.html" H 1350 7500 60  0001 C CNN
+	1    1050 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -820,17 +820,14 @@ Text Notes 3950 1700 0    60   ~ 0
 Place holder for \ncurrent sense resistor
 Wire Notes Line
 	3400 1600 3900 1600
-Wire Wire Line
-	1500 6800 1500 6650
-NoConn ~ 900  6650
-NoConn ~ 900  7250
+NoConn ~ 750  7250
 Wire Notes Line
 	3400 1600 3400 1450
 Text Label 5650 3000 0    60   ~ 0
 SBWTCK
 Text Notes 6900 2950 0    60   ~ 0
 External power input / current measurement\n\n\nMCU SBW (programing port)
-Text Notes 6900 1250 0    60   ~ 0
+Text Notes 9150 1500 0    60   ~ 0
 Accelerometer debug connector
 Wire Wire Line
 	3600 5200 5450 5200
@@ -872,4 +869,67 @@ F 3 "https://www.linxtechnologies.com/resources/diagrams/bat-hld-001.pdf" H 1700
 	1    1250 1450
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1350 6650
+Wire Wire Line
+	1500 6800 1500 6450
+Wire Wire Line
+	1500 6450 750  6450
+Wire Wire Line
+	750  6450 750  6650
+$Comp
+L GND #PWR?
+U 1 1 54CAB345
+P 9000 2300
+F 0 "#PWR?" H 9000 2300 30  0001 C CNN
+F 1 "GND" H 9000 2230 30  0001 C CNN
+F 2 "" H 9000 2300 60  0000 C CNN
+F 3 "" H 9000 2300 60  0000 C CNN
+	1    9000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54CAB359
+P 9250 750
+F 0 "#PWR?" H 9250 750 30  0001 C CNN
+F 1 "GND" H 9250 680 30  0001 C CNN
+F 2 "" H 9250 750 60  0000 C CNN
+F 3 "" H 9250 750 60  0000 C CNN
+	1    9250 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 750  9250 600 
+Wire Wire Line
+	9250 600  9000 600 
+Wire Wire Line
+	9000 600  9000 750 
+$Comp
+L GND #PWR?
+U 1 1 54CAB440
+P 6750 3600
+F 0 "#PWR?" H 6750 3600 30  0001 C CNN
+F 1 "GND" H 6750 3530 30  0001 C CNN
+F 2 "" H 6750 3600 60  0000 C CNN
+F 3 "" H 6750 3600 60  0000 C CNN
+	1    6750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54CAB454
+P 7100 2050
+F 0 "#PWR?" H 7100 2050 30  0001 C CNN
+F 1 "GND" H 7100 1980 30  0001 C CNN
+F 2 "" H 7100 2050 60  0000 C CNN
+F 3 "" H 7100 2050 60  0000 C CNN
+	1    7100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2050 7100 1900
+Wire Wire Line
+	7100 1900 6750 1900
+Wire Wire Line
+	6750 1900 6750 2050
 $EndSCHEMATC
