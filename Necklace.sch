@@ -372,9 +372,9 @@ Text Label 5550 1050 0    60   ~ 0
 I2C_SCL
 Text Label 5550 1150 0    60   ~ 0
 I2C_SDA
-Text Label 5550 1350 0    60   ~ 0
-ACC_INT1
 Text Label 5550 1450 0    60   ~ 0
+ACC_INT1
+Text Label 5550 1350 0    60   ~ 0
 ACC_INT2
 $Comp
 L GND #PWR018
